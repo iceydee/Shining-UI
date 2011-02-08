@@ -1,0 +1,31 @@
+## Interface: 40000
+## Author: Ammo
+## Title: Better Inbox
+## Notes: Modifies the inbox into a scrollable inbox, including open all options
+## Notes-frFR: Transforme la boîte de réception en une boîte de réception à défilement, comprenant des options pour tout ouvrir.
+## X-Curse-Packaged-Version: r88-release
+## X-Curse-Project-Name: BetterInbox
+## X-Curse-Project-ID: better-inbox
+## X-Curse-Repository-ID: wow/better-inbox/mainline
+
+## X-Credits: Jaxxom for the graphics that make this look good
+
+## SavedVariables: BetterInboxDB
+
+## OptionalDeps: Ace3
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Mailbox: true
+
+#@no-lib-strip@
+libs.xml
+#@end-no-lib-strip@
+
+locale\enUS.lua
+locale\koKR.lua
+locale\frFR.lua
+locale\zhCN.lua
+locale\zhTW.lua
+
+BetterInbox.lua
+

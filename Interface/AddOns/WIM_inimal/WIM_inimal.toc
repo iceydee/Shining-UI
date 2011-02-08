@@ -1,0 +1,6 @@
+## Interface: 30300
+## Title: WIM-inaml
+## Notes: Minimalist Skin for WIM (WoW Instant Messenger)
+## Author: Nickelslug (Silver Hand)
+
+skin.lua

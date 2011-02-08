@@ -1,0 +1,29 @@
+------------------------------------------------------------------------
+r164 | rabbit | 2010-11-27 01:23:31 +0000 (Sat, 27 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/BugGrabber.lua
+
+Forgot to change internal reference to :StoreError.
+------------------------------------------------------------------------
+r163 | rabbit | 2010-11-27 00:21:51 +0000 (Sat, 27 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/BugGrabber.lua
+
+Need this method exposed for BugSacks bug sending.
+------------------------------------------------------------------------
+r162 | rabbit | 2010-11-08 09:21:22 +0000 (Mon, 08 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/BugGrabber.lua
+   M /trunk/locales.lua
+
+Use the addon table since it's there.
+------------------------------------------------------------------------
+r161 | rabbit | 2010-10-25 22:27:51 +0000 (Mon, 25 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/!BugGrabber.toc
+   M /trunk/BugGrabber.lua
+   A /trunk/locales.lua
+
+* Load locales from a different file so we don't screw with line numbers in BugGrabber.lua
+
+------------------------------------------------------------------------

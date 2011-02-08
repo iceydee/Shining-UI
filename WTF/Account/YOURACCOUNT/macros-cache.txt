@@ -1,0 +1,87 @@
+MACRO 38 "-" Spell_ChargeNegative
+/2 Der kleine druidische Stier macht euch die Hölle heiss:
+/2 |cffffd000|Henchant:55208|h[Bergbau: Titanstahl verhütten]|h|r gegen Mats und freiw. TG!
+END
+MACRO 52 "--" Spell_ChargeNegative
+/2 Natürlich auch funkelnde Juwelen!
+/2 |cffffd000|Htrade:51311:450:450:68000000207AE15:8f6UsqMsJyjpmMHAAAAwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDiSCgBABCCEAig4GAAA+/D8Pg/BAAAAAgAAAAAA|h[Juwelenschleifen]|h|r+ Sondieren!
+/2 Gruß, Treant!
+END
+MACRO 64 "11" INV_Misc_QuestionMark
+#showtooltip Einschreiten
+/target Luniel
+/cast Einschreiten
+END
+MACRO 63 "22" INV_Misc_QuestionMark
+#showtooltip Brüllen der Aufopferung
+/target Faultier
+/cast Brüllen der Aufopferung
+END
+MACRO 39 "Beruf1" Spell_ChargePositive
+/2 Leuchten soll's? Aber habt keinen Dunst?
+/2 Nehmt meine |cffffd000|Htrade:51313:450:450:2800000025CB42A:47Kbf6a8f5Z7m+y3vLNPLJGACgGBBuAI43zC907v+bV/X+///vT|h[Verzauberkunst]|h|r!
+END
+MACRO 40 "Beruf3" Spell_ChargePositive
+/2 Ihr sucht neue, heiße Kleidung?
+/2 Feinstes Echtleder: |cffffd000|Htrade:51302:450:450:2800000025CB42A:e+XFNPG9GfW06335+kcDZU6RjlcFPEACAYAAg3//PgrLAHnsAA/AKAAIA8A4/vl8/////////////////EGg///vf|h[Lederverarbeitung]|h|r
+END
+MACRO 55 "BL" INV_Misc_QuestionMark
+#showtooltip Kochendes Blut
+/use Kochendes Blut
+/use Schnellfeuer
+/use Zorn des Wildtiers
+END
+MACRO 57 "EF" INV_Misc_QuestionMark
+#showtooltip Feuerbrandfalle
+/cast Fallenschleuder
+/cast Feuerbrandfalle
+END
+MACRO 48 "EF" INV_Misc_QuestionMark
+#showtooltip Fallenschleuder
+/cast Fallenschleuder
+/cast Sprengfalle
+END
+MACRO 60 "Fauldarm" Ability_Ambush
+/raid Also, Fauldarm HC, wichtig nochmal :)
+/raid nur die Caster bleiben draußen, die Heiler bleiben bei den Melees
+/raid wenn in eurer Nähe ein grüner Punkt auf dem Boden ist - weg davon.
+/raid ansonsten gelten alle Regeln aus dem normalen Modus.
+END
+MACRO 56 "FF" INV_Misc_QuestionMark
+#showtooltip Frostfalle
+/cast Fallenschleuder
+/cast Frostfalle
+END
+MACRO 53 "Focus" INV_Misc_QuestionMark
+/script DEFAULT_CHAT_FRAME:AddMessage( GetMouseFocus():GetName() );
+END
+MACRO 58 "hali" INV_Misc_QuestionMark
+#showtooltip Uralte Hysterie
+/cast Uralte Hysterie
+END
+MACRO 41 "Käse" Spell_ChargeNegative
+/2 Mehr Käse = Weniger Käse! Der Beweis:
+/2 Mehr Käse -> Mehr Löcher
+/2 Mehr Löcher -> Weniger Käse !!
+/2 Weniger Käse -> Weniger Löcher!
+/2 Weniger Löcher -> Mehr Käse!
+/2 Also: Mehr Käse = Weniger Käse! 
+END
+MACRO 62 "Leder" INV_Misc_QuestionMark
+/1 Kaufe Primtives Leder/Geschäwzrte Drachenschuppen (Stack 200g) und Lederfetzen (40g/stack)! Einfach whispern oder per NN an Faultier!
+/1 Das gilt auch für Element-Kram!
+END
+MACRO 35 "Mounts" INV_Misc_QuestionMark
+#showtooltip Drache des Westwinds
+/use [nomounted, button:1] Drache des Westwinds
+/use [nomounted, button:2] Schwarzer Wolf; Rabenfürst
+/dismount [mounted] 
+END
+MACRO 47 "Obsi3D" INV_Misc_QuestionMark
+#showtooltip Ablenkender Schuss
+/target Tenebron
+/Use Ablenkender Schuss
+END
+MACRO 61 "PA" INV_Misc_QuestionMark
+/script PetAbandon()
+END

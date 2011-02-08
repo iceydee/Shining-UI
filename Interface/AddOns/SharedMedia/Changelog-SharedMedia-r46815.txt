@@ -1,0 +1,46 @@
+------------------------------------------------------------------------
+r46815 | pb_ee1 | 2007-08-17 21:48:58 -0400 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/fonts/Movie_Poster-Bold.ttf
+
+SharedMedia: Adding Movie Poster font to give an alternative to Tangerine that does not display all characters correctly (ex: ":", "[", "]", ...)
+------------------------------------------------------------------------
+r45837 | funkydude | 2007-08-06 21:22:50 -0400 (Mon, 06 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/SharedMedia
+   M /trunk/SharedMedia/SharedMedia.toc
+   A /trunk/SharedMedia/embeds.xml
+
+SharedMedia: use embeds.xml
+------------------------------------------------------------------------
+r44563 | ckknight | 2007-07-22 21:57:33 -0400 (Sun, 22 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/fonts/Bazooka.ttf
+   A /trunk/SharedMedia/fonts/Porky.ttf
+   A /trunk/SharedMedia/fonts/Yellowjacket.ttf
+
+SharedMedia - added fonts Porky, Bazooka, and Yellowjacket, which are used in MSBT.
+These fonts come from http://www.webpagepublicity.com/free-fonts.html
+------------------------------------------------------------------------
+r44561 | ckknight | 2007-07-22 21:01:38 -0400 (Sun, 22 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/fonts/Adventure.ttf
+   A /trunk/SharedMedia/fonts/Avqest.ttf
+   A /trunk/SharedMedia/fonts/Enigma__2.ttf
+   A /trunk/SharedMedia/fonts/Tw_Cen_MT_Bold.ttf
+
+SharedMedia - add fonts that SCT has normally (Adventure, Diablo, Enigma, TwCenMT)
+- TwCenMT should probably get a better name
+------------------------------------------------------------------------
+r44313 | fin | 2007-07-20 06:14:43 -0400 (Fri, 20 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/SharedMedia/INSTRUCTIONS for MyMedia.txt
+
+SharedMedia - MyMedia Instructions
+- converted into format which should allow users to just copy the readme file itself as a new MyMedia.lua
+- updated destructions to reflect this
+- added couple of minor extra notes
+------------------------------------------------------------------------

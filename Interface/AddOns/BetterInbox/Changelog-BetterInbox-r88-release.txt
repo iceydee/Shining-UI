@@ -1,0 +1,14 @@
+------------------------------------------------------------------------
+r88 | ammo | 2010-10-16 12:51:32 +0000 (Sat, 16 Oct 2010) | 1 line
+Changed paths:
+   A /tags/r88-release (from /trunk:87)
+
+Tagging as r88-release
+------------------------------------------------------------------------
+r87 | ammo | 2010-10-16 12:50:50 +0000 (Sat, 16 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BetterInbox.lua
+   M /trunk/BetterInbox.toc
+
+fix this issue, and 4.0 toc
+------------------------------------------------------------------------

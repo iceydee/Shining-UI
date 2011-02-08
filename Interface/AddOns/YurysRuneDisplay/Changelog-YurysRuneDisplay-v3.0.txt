@@ -1,0 +1,160 @@
+------------------------------------------------------------------------
+r76 | yivry | 2010-10-13 10:14:03 +0000 (Wed, 13 Oct 2010) | 1 line
+Changed paths:
+   A /tags/v3.0 (from /trunk:75)
+
+Tagging as v3.0 (patch, so beta is now release)
+------------------------------------------------------------------------
+r74 | yivry | 2010-09-29 14:50:28 +0000 (Wed, 29 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.lua
+   M /trunk/YRDRuneFrame.xml
+   M /trunk/YurysRuneDisplay.lua
+
+Update to reflect changes made in Cataclysm build 12984
+------------------------------------------------------------------------
+r72 | yivry | 2010-09-18 12:44:18 +0000 (Sat, 18 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.xml
+   M /trunk/YurysRuneDisplay.lua
+
+Tests are looking good...
+------------------------------------------------------------------------
+r71 | yivry | 2010-09-18 12:30:47 +0000 (Sat, 18 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Some small optimization, code clean-up, new tests
+------------------------------------------------------------------------
+r70 | yivry | 2010-09-17 18:40:29 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Bugfix (I hope)
+------------------------------------------------------------------------
+r69 | yivry | 2010-09-17 18:09:51 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Less dirty hook to test something...
+------------------------------------------------------------------------
+r68 | yivry | 2010-09-17 17:57:53 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Dirty hook to test something...
+------------------------------------------------------------------------
+r67 | yivry | 2010-09-17 17:19:28 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+More testing
+------------------------------------------------------------------------
+r66 | yivry | 2010-09-17 17:04:59 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.lua
+
+Some code cleanup
+------------------------------------------------------------------------
+r65 | yivry | 2010-09-17 16:51:17 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.lua
+
+Hope to fix what I broke :P
+------------------------------------------------------------------------
+r64 | yivry | 2010-09-17 16:12:48 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/YRDRuneFrame.lua
+   M /trunk/YurysRuneDisplay.lua
+
+Some code cleanup
+------------------------------------------------------------------------
+r63 | yivry | 2010-09-17 12:24:03 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Fixed timing issue
+------------------------------------------------------------------------
+r62 | yivry | 2010-09-17 12:06:42 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.xml
+
+Alignment issues...
+------------------------------------------------------------------------
+r61 | yivry | 2010-09-17 11:58:11 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.xml
+
+Moar bugfix
+------------------------------------------------------------------------
+r60 | yivry | 2010-09-17 11:55:09 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.xml
+
+Moar bugfix
+------------------------------------------------------------------------
+r59 | yivry | 2010-09-17 11:46:30 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.xml
+   M /trunk/YurysRuneDisplay.lua
+
+Fix on numerical cd
+------------------------------------------------------------------------
+r58 | yivry | 2010-09-17 11:35:13 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Automatically change font-size, depending on cd left (> 9 is smaller text)
+------------------------------------------------------------------------
+r57 | yivry | 2010-09-17 11:03:17 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.xml
+
+Update to the xml for numerical cd
+------------------------------------------------------------------------
+r56 | yivry | 2010-09-17 10:50:06 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.lua
+   M /trunk/YurysRuneDisplay.lua
+
+Re-enabling numerical cooldown
+------------------------------------------------------------------------
+r55 | yivry | 2010-09-17 10:20:34 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+More bugfix: passed wrong parameter to function
+------------------------------------------------------------------------
+r54 | yivry | 2010-09-17 10:07:13 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Bugfix: wrong call to runes
+------------------------------------------------------------------------
+r53 | yivry | 2010-09-17 09:45:11 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YurysRuneDisplay.lua
+
+Fixed rune order (after blizz swapped them in cata)
+------------------------------------------------------------------------
+r52 | yivry | 2010-09-17 09:32:23 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/YurysRuneDisplay.lua
+   M /trunk/YurysRuneDisplay.toc
+
+(More) fixing for Cata
+------------------------------------------------------------------------
+r51 | yivry | 2010-09-17 09:05:31 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.lua
+
+Fixing for Cata
+------------------------------------------------------------------------
+r50 | yivry | 2010-09-10 15:04:36 +0000 (Fri, 10 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/YRDRuneFrame.xml
+
+Update xml to reflect changes in the code
+------------------------------------------------------------------------

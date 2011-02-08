@@ -1,0 +1,101 @@
+------------------------------------------------------------------------
+r24 | kagaro | 2009-04-13 12:50:31 +0000 (Mon, 13 Apr 2009) | 1 line
+Changed paths:
+   A /tags/1.5RC2 (from /trunk:23)
+
+Tagging as 1.5RC2
+------------------------------------------------------------------------
+r23 | kagaro | 2009-04-06 21:01:18 +0000 (Mon, 06 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: bug fix in alpha
+------------------------------------------------------------------------
+r22 | kagaro | 2009-04-04 17:38:12 +0000 (Sat, 04 Apr 2009) | 2 lines
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: added rock support *DRYCODE*
+
+------------------------------------------------------------------------
+r21 | kagaro | 2009-03-26 13:05:28 +0000 (Thu, 26 Mar 2009) | 2 lines
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: started adding switchexact support
+
+------------------------------------------------------------------------
+r20 | kagaro | 2009-03-25 15:30:40 +0000 (Wed, 25 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: upcast some globals
+------------------------------------------------------------------------
+r18 | kagaro | 2009-03-24 12:23:18 +0000 (Tue, 24 Mar 2009) | 2 lines
+Changed paths:
+   M /trunk/Reflux.lua
+   M /trunk/Reflux.toc
+
+Reflux: added Ace2 to opt deps so ace2 disembeeded loads .. dont ask.
+also removed the LoadAddon calls
+------------------------------------------------------------------------
+r14 | kagaro | 2009-03-19 12:21:34 +0000 (Thu, 19 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: more ace2 loading checks
+------------------------------------------------------------------------
+r13 | kagaro | 2009-03-19 12:15:45 +0000 (Thu, 19 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: added a LOD check for Ace2 and Ace3, so if set toLoad onDemand, reflux will load them before trying to use them.
+------------------------------------------------------------------------
+r11 | kagaro | 2009-03-18 14:19:32 +0000 (Wed, 18 Mar 2009) | 2 lines
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: added copy/delete profile support and saving of addon state in help
+
+------------------------------------------------------------------------
+r9 | kagaro | 2009-03-18 03:22:00 +0000 (Wed, 18 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/Reflux.toc
+
+Reflux: commiting .toc changes
+------------------------------------------------------------------------
+r7 | kagaro | 2009-03-16 14:12:47 +0000 (Mon, 16 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: added copy/delete and addon sets. DRYCODE, compiled with luac
+------------------------------------------------------------------------
+r5 | kagaro | 2009-03-16 12:19:33 +0000 (Mon, 16 Mar 2009) | 2 lines
+Changed paths:
+   M /trunk/Reflux.lua
+
+Reflux: added profile emulation support for adons that dont suport profiles.
+CMDline has new options type /reflux to see them.
+------------------------------------------------------------------------
+r3 | kagaro | 2009-03-15 12:04:23 +0000 (Sun, 15 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/Reflux.toc
+
+Reflux: added @project-version@ to toc
+------------------------------------------------------------------------
+r2 | kagaro | 2009-03-15 11:45:55 +0000 (Sun, 15 Mar 2009) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+   A /trunk/Reflux.lua
+   A /trunk/Reflux.toc
+
+Reflux: initial commit
+------------------------------------------------------------------------
+r1 | root | 2009-03-15 11:37:35 +0000 (Sun, 15 Mar 2009) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"reflux/mainline: Initial Import"
+------------------------------------------------------------------------

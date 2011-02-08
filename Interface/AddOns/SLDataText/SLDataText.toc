@@ -1,0 +1,21 @@
+﻿## Interface: 30300
+## Title: SLDataText
+## Notes: Text-based data display modules.
+## Notes-zhCN: 文本数据显示模块集合。
+## Notes-zhTW: 文本數據顯示模組集合。
+## Version: 3.2.4
+## Author: Taffu (continued by Jinua)
+## SavedVariables: SLDTDB
+## OptionalDeps: Ace3, LibSharedMedia-3.0, TabletLib
+## X-WoWI-ID: 8539
+
+embeds.xml
+
+Locale\enUS.lua
+Locale\zhCN.lua
+Locale\zhTW.lua
+
+Core.lua
+Config.lua
+
+elements.xml

@@ -1,0 +1,20 @@
+------------------------------------------------------------------------
+r69818 | apoco | 2008-04-14 21:36:51 -0400 (Mon, 14 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/fonts/PerspectiveSans.ttf
+
+SharedMedia: - Added PerspectiveSans Font
+------------------------------------------------------------------------
+r67408 | durcyn | 2008-03-31 22:31:53 -0400 (Mon, 31 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.toc
+
+SharedMedia: TO THE WINDOW, TO THE WALLS.. er, toc bump or something.
+------------------------------------------------------------------------
+r65292 | seerah | 2008-03-21 20:20:12 -0400 (Fri, 21 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/SharedMedia/INSTRUCTIONS for MyMedia.txt
+
+SharedMedia: Don't change examples if you don't know how it's supposed to work.
+------------------------------------------------------------------------

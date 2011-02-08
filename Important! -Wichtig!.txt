@@ -1,0 +1,30 @@
+Chinchilla
+Because of the non-perfect profile-handling of chinchila, not erverything will be changed after you changed the profile.
+Fix it, move the Minimap to  634/370 (x-y-coords), select profile "default" and type "/rl" in the chat. Now everything should be ok.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Chinchilla
+Da das Profile-Handling von Chinchilla nicht wirklich funktioniert, werden nicht alle Einstellungen übernommen.
+Um Fehler zu beheben, bewegt die Minimap zu den Koordinaten 6347370 (X-Y-Schreibweise), wählt das Profil "Default" aus und macht mit "/rl" im Chat einen Reload - nun sollte alles passen.
+
+
+
+Interface in General
+I'm advising you to download and use "AI-Art" [http://www.wowinterface.com/downloads/info15048-Ai-Art.html], it's fits perfect and looks just awesome!
+But if you download it, DON'T overwrite existing files (but integrate/update folders), otherwise it could happen that some graphical parts of the Interface are broken or look... umm... let's say like a piece of shit, because I modified some graphic on my own.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Interface im Allgemeinen
+Ich rate euch wirklich, AI-Art [http://www.wowinterface.com/downloads/info15048-AI-Art.html] herunterzuladen und zu installieren, es sieht einfach nur geil aus und passt sehr gut zu meinem Interface.
+Solltet ihr das jedoch in Erwägung ziehen, solltet ihr existierende Dateien nicht überschreiben (Ordner updaten oder integrieren geht allerdings), da sonst einige von mir veränderte Grafiken weg sind und es zu Fehlfunktionen oder, sagen wir, grafischen Missbildungen kommen kann.
+
+
+
+Updates
+If you aren't using the CurseUpdater, get it. 95% of the AddOns can be updatet without a problem, it's fast and often faster than me.
+If there AddOns that need to be modified or need a new configurarion, i'll handle them and update my Interface @ WoWInterface.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updates
+Falls ihr ihn noch nicht benutzt, holt euch den AddOn-Updater von Curse. Er ist aktuell und 95% aller Updates funktionieren einwandfrei. Sollte dennoch mal etwas neu Eingestellt werden müssen oder ähnliches, werde ich gefixte Version meines Interface auf WoWInterface hochladen.
+
+
+
+Truly yours, Faultier ?

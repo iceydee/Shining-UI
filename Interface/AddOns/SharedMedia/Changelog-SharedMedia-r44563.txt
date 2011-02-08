@@ -1,0 +1,49 @@
+------------------------------------------------------------------------
+r44563 | ckknight | 2007-07-22 21:57:33 -0400 (Sun, 22 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/fonts/Bazooka.ttf
+   A /trunk/SharedMedia/fonts/Porky.ttf
+   A /trunk/SharedMedia/fonts/Yellowjacket.ttf
+
+SharedMedia - added fonts Porky, Bazooka, and Yellowjacket, which are used in MSBT.
+These fonts come from http://www.webpagepublicity.com/free-fonts.html
+------------------------------------------------------------------------
+r44561 | ckknight | 2007-07-22 21:01:38 -0400 (Sun, 22 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/fonts/Adventure.ttf
+   A /trunk/SharedMedia/fonts/Avqest.ttf
+   A /trunk/SharedMedia/fonts/Enigma__2.ttf
+   A /trunk/SharedMedia/fonts/Tw_Cen_MT_Bold.ttf
+
+SharedMedia - add fonts that SCT has normally (Adventure, Diablo, Enigma, TwCenMT)
+- TwCenMT should probably get a better name
+------------------------------------------------------------------------
+r44313 | fin | 2007-07-20 06:14:43 -0400 (Fri, 20 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/SharedMedia/INSTRUCTIONS for MyMedia.txt
+
+SharedMedia - MyMedia Instructions
+- converted into format which should allow users to just copy the readme file itself as a new MyMedia.lua
+- updated destructions to reflect this
+- added couple of minor extra notes
+------------------------------------------------------------------------
+r42589 | ckknight | 2007-07-03 04:21:59 -0400 (Tue, 03 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/fonts/Tangerin.ttf
+
+SharedMedia - add the Tangerine font.
+- change the paths from "Interface\\Blah" style to [[Interface\Blah]] style, cause escaping is for nubs.
+------------------------------------------------------------------------
+r41316 | hyperactiveChipmunk | 2007-06-22 17:41:09 -0400 (Fri, 22 Jun 2007) | 3 lines
+Changed paths:
+   M /trunk/SharedMedia/SharedMedia.lua
+   A /trunk/SharedMedia/background
+   A /trunk/SharedMedia/background/moo.tga
+
+SharedMedia:
+- CowTip special!  'Moo' background added.
+
+------------------------------------------------------------------------

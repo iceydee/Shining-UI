@@ -1,0 +1,32 @@
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<!-- Get Standalone Libs -->
+	<Script file="Libs\LibStub\LibStub.lua"/>
+	<Script file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua"/>
+
+	<!-- Get all used Ace libs -->
+	<Include file="Libs\AceAddon-3.0\AceAddon-3.0.xml"/>
+	<Include file="Libs\AceEvent-3.0\AceEvent-3.0.xml"/>
+	<Include file="Libs\AceDB-3.0\AceDB-3.0.xml"/>
+	<Include file="Libs\AceLocale-3.0\AceLocale-3.0.xml"/>
+	<Include file="Libs\AceConsole-3.0\AceConsole-3.0.xml"/>
+	<Include file="Libs\AceGUI-3.0\AceGUI-3.0.xml"/>
+	<Include file="Libs\AceConfig-3.0\AceConfig-3.0.xml"/>
+
+ 	<!-- Get all localizations -->
+ 	<Script file="Localizations\deDE.lua"/>
+ 	<Script file="Localizations\enUS.lua"/>
+ 	<Script file="Localizations\esES.lua"/>
+ 	<Script file="Localizations\esMX.lua"/>
+ 	<Script file="Localizations\frFR.lua"/>
+ 	<Script file="Localizations\koKR.lua"/>
+ 	<Script file="Localizations\ruRU.lua"/>
+ 	<Script file="Localizations\zhCN.lua"/>
+ 	<Script file="Localizations\zhTW.lua"/>
+ 
+ 	<!-- Get the RuneDisplay -->
+ 	<Script file="YRDRuneFrame.lua"/>
+ 	<Include file="YRDRuneFrame.xml"/>
+ 
+ 	<!-- And finally, the addon code -->
+ 	<Script file="YurysRuneDisplay.lua"/>
+</Ui>

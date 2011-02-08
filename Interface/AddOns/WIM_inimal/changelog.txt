@@ -1,0 +1,10 @@
+0.3 beta
+* adjusted msg_box to fix an issue with being able to click on it so that it recieved focus
+* adjusted position of resize texture
+
+0.2 beta
+* fixed faulty texture paths
+
+0.1 beta
+* initial build
+

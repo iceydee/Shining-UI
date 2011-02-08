@@ -1,0 +1,193 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Button name="YRDRuneButtonIndividualTemplate" virtual="true" hidden="false">
+		<Size>
+			<AbsDimension x="18" y="18" />
+		</Size>
+		<Frames>
+			<Cooldown name="$parentCooldown" drawEdge="true" frameStrata="LOW">
+				<Size x="15" y="15" />
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="-1" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parentText" font="Fonts\FRIZQT__.TTF" text="" justifyH="CENTER" justifyV="MIDDLE" outline="THICK">
+							<Color r="1" g="1" b="0" a="1" />
+							<FontHeight>
+								<AbsValue val="17" />
+							</FontHeight>
+							<Anchors>
+								<Anchor point="CENTER" relativeTo="$parent" relativePoint="CENTER">
+									<Offset>
+										<AbsDimension x="1" y="-1" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Cooldown>
+			<Frame name="$parentBorder" frameStrata="LOW">
+				<Size x="24" y="24" />
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset x="0" y="-1" />
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<Texture name="$parentTexture" file="Interface\PlayerFrame\UI-PlayerFrame-Deathknight-Ring">
+							<Color r=".6" g=".6" b=".6" a=".6" />
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnLoad>RaiseFrameLevel(self);</OnLoad>
+				</Scripts>
+			</Frame>
+			<Frame frameStrata="MEDIUM" setAllPoints="true" name="$parentShine">
+				<Layers>
+					<Layer level="OVERLAY">
+						<Texture name="$parentTexture" urgency="5" file="Interface\ComboFrame\ComboPoint" alphaMode="ADD" hidden="true">
+							<Size x="60" y="35" />
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset x="0" y="0" />
+								</Anchor>
+							</Anchors>
+							<TexCoords left="0.5625" right="1" top="0" bottom="1" />
+						</Texture>
+					</Layer>
+				</Layers>
+			</Frame>
+			<Frame frameStrata="HIGH" setAllPoints="true">
+				<Layers>
+					<Layer level="OVERLAY" textureSublevel = "-1">
+						<Texture name="$parentRuneWhiteGlow" file="Interface\PlayerFrame\Deathknight-Energize-White" alpha="0">
+							<Size x="8" y="8"/>
+							<Anchors>
+								<Anchor point="CENTER" x="0" y="-1"/>
+							</Anchors>
+						</Texture>
+					</Layer>
+					<Layer level="OVERLAY">
+						<Texture name="$parentRuneColorGlow" file="Interface\PlayerFrame\Deathknight-Energize-Blood" alpha="0">
+							<Size x="32" y="32"/>
+							<Anchors>
+								<Anchor point="CENTER" x="0" y="-1"/>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture name="$parentRune" file="Interface\PlayerFrame\UI-PlayerFrame-Deathknight-Blood" parentKey="rune">
+					<Size>
+						<AbsDimension x="24" y="24" />
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0" y="-1" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Animations>
+			<AnimationGroup parentKey="energize">
+				<Scale target="$parentRuneWhiteGlow" endDelay="1" duration="0.15"  scaleX="4" scaleY="4" order="1"/>
+				<Alpha target="$parentRuneWhiteGlow" endDelay="1" change="1.0" duration="0.2" order="1" />
+				<Alpha target="$parentRuneColorGlow" startDelay="0.3" endDelay="4" change="1.0" duration="0.1" order="1" smoothing="IN_OUT"/>
+				<Alpha target="$parentRuneWhiteGlow" change="-1.0" duration="0.1" order="2" smoothing="IN_OUT"/>
+				<Alpha target="$parentRuneColorGlow" change="-1.0" duration="0.1" order="2" smoothing="IN_OUT"/>
+			</AnimationGroup>
+		</Animations>
+		<Scripts>
+			<OnLoad>YRDRuneButton_OnLoad(self);</OnLoad>
+		</Scripts>
+	</Button>
+
+	<Frame name="YRDRuneFrame" parent="UIParent" frameStrata="LOW" toplevel="true" hidden="false">
+		<Size>
+			<AbsDimension x="130" y="18" />
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="UIParent" relativePoint="CENTER">
+				<Offset>
+					<AbsDimension x="0" y="1" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			<OnLoad>YRDRuneFrame_OnLoad(self);</OnLoad>
+		</Scripts>
+	</Frame>
+
+	<Button name="YRDRuneButtonIndividual1" inherits="YRDRuneButtonIndividualTemplate" parent="YRDRuneFrame" id="1">
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="YRDRuneFrame" relativePoint="LEFT">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="YRDRuneButtonIndividual2" inherits="YRDRuneButtonIndividualTemplate" parent="YRDRuneFrame" id="2">
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="YRDRuneButtonIndividual1" relativePoint="RIGHT">
+				<Offset>
+					<AbsDimension x="3" y="-8" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="YRDRuneButtonIndividual5" inherits="YRDRuneButtonIndividualTemplate" parent="YRDRuneFrame" id="5">
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="YRDRuneButtonIndividual2" relativePoint="RIGHT">
+				<Offset>
+					<AbsDimension x="3" y="-4" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="YRDRuneButtonIndividual6" inherits="YRDRuneButtonIndividualTemplate" parent="YRDRuneFrame" id="6">
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="YRDRuneButtonIndividual5" relativePoint="RIGHT">
+				<Offset>
+					<AbsDimension x="3" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="YRDRuneButtonIndividual3" inherits="YRDRuneButtonIndividualTemplate" parent="YRDRuneFrame" id="3">
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="YRDRuneButtonIndividual6" relativePoint="RIGHT">
+				<Offset>
+					<AbsDimension x="3" y="4" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="YRDRuneButtonIndividual4" inherits="YRDRuneButtonIndividualTemplate" parent="YRDRuneFrame" id="4">
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="YRDRuneButtonIndividual3" relativePoint="RIGHT">
+				<Offset>
+					<AbsDimension x="3" y="8" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+</Ui>

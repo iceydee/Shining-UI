@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: DXE |cff99ff33Extended Alerts|r
+## Notes: DBM-Like Alerts for DXE
+## Author: Kips
+## Version: 0.3
+## RequiredDeps: DXE
+## OptionalDeps: Ace3
+
+libs.xml
+DXE_Extended.lua

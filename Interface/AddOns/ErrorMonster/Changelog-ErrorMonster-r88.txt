@@ -1,0 +1,23 @@
+------------------------------------------------------------------------
+r88 | rabbit | 2010-11-01 08:42:58 +0000 (Mon, 01 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/ErrorMonster.lua
+   M /trunk/ErrorMonster.toc
+   M /trunk/embeds.xml
+   D /trunk/license.txt
+
+Add missing AceLocale library.
+------------------------------------------------------------------------
+r87 | rabbit | 2010-10-14 22:54:45 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/ErrorMonster.toc
+
+Toc bump.
+------------------------------------------------------------------------
+r86 | rabbit | 2009-06-27 14:22:15 +0000 (Sat, 27 Jun 2009) | 1 line
+Changed paths:
+   M /trunk/ErrorMonster.lua
+
+Use table.wipe instead of iterating manually.
+------------------------------------------------------------------------

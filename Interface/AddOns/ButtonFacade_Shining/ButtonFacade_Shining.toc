@@ -1,0 +1,10 @@
+## Interface: 30200
+## Title: ButtonFacade: |cffff8000Shining|r
+## Author: Faultier
+## Version: 1
+## Notes: ShiningSkin for ButtonFacade.
+## X-eMail: a.kurda@gmx.net
+## OptionalDeps: LibButtonFacade,ButtonFacade
+## DefaultState: Enabled
+## LoadOnDemand: 0
+Skins.lua

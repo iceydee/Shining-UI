@@ -1,0 +1,50 @@
+------------------------------------------------------------------------
+r295 | sylvanaar | 2010-12-16 10:57:43 +0000 (Thu, 16 Dec 2010) | 1 line
+Changed paths:
+   A /tags/3.5.1 (from /trunk:294)
+
+Tagging as 3.5.1
+------------------------------------------------------------------------
+r294 | sylvanaar | 2010-12-16 00:49:09 +0000 (Thu, 16 Dec 2010) | 1 line
+Changed paths:
+   M /trunk/Sources/Options/CoreOptions.lua
+
+remove the WIM-2-WIM options, oops...
+------------------------------------------------------------------------
+r291 | sylvanaar | 2010-12-15 16:22:16 +0000 (Wed, 15 Dec 2010) | 1 line
+Changed paths:
+   M /trunk/Modules/WhisperEngine.lua
+
+allow sending of a whisper by rightclicking the name on the friends frame
+------------------------------------------------------------------------
+r290 | sylvanaar | 2010-12-15 16:06:46 +0000 (Wed, 15 Dec 2010) | 1 line
+Changed paths:
+   M /trunk/WIM.lua
+
+update the admessageeventfilter runner
+------------------------------------------------------------------------
+r288 | sylvanaar | 2010-12-15 15:04:04 +0000 (Wed, 15 Dec 2010) | 1 line
+Changed paths:
+   M /trunk/Modules/WhisperEngine.lua
+
+better fix for the bnet errors. needs LOTS of testing
+------------------------------------------------------------------------
+r287 | sylvanaar | 2010-12-15 14:26:10 +0000 (Wed, 15 Dec 2010) | 1 line
+Changed paths:
+   M /trunk/WIM.toc
+
+aet the version tag to be project version
+------------------------------------------------------------------------
+r285 | sylvanaar | 2010-12-15 14:06:00 +0000 (Wed, 15 Dec 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   D /trunk/Modules/W2W.lua
+   A /trunk/Modules/W2W.lua.disabled (from /trunk/Modules/W2W.lua:284)
+   D /trunk/Modules/W2Wv2.lua
+   A /trunk/Modules/W2Wv2.lua.disabled (from /trunk/Modules/W2Wv2.lua:284)
+   M /trunk/Modules/WhisperEngine.lua
+   M /trunk/WIM.lua
+   M /trunk/WIM.toc
+
+merge in modifications from the working clone
+------------------------------------------------------------------------

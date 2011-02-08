@@ -1,0 +1,14 @@
+## Interface: 30100
+
+## Title: ButtonFacade: |cffff8000ThinBlack|r
+## Notes: DsmFade skin for ButtonFacade.
+## Version: 1.46
+
+## Author: Kwi
+## X-eMail: piefayth@gmail.com
+## X-Credits: Ish for making me make this
+
+## X-Category: Action Bars
+## OptionalDeps: LibButtonFacade, ButtonFacade
+
+Skins.lua

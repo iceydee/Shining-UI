@@ -1,0 +1,114 @@
+------------------------------------------------------------------------
+r1401 | phanx | 2010-12-04 21:04:32 +0000 (Sat, 04 Dec 2010) | 1 line
+Changed paths:
+   A /tags/1.40000.1400-beta (from /trunk:1400)
+
+Tagging as 1.40000.1400-beta
+------------------------------------------------------------------------
+r1400 | Phanx | 2010-12-03 10:15:33 +0000 (Fri, 03 Dec 2010) | 1 line
+Changed paths:
+   M /trunk/GridFrame.lua
+   M /trunk/GridLayout.lua
+   M /trunk/GridStatus.lua
+
+- Fix for Ticket #447 ("Groups not correctly aligned")
+------------------------------------------------------------------------
+r1399 | Phanx | 2010-11-22 03:19:24 +0000 (Mon, 22 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/GridFrame.lua
+   M /trunk/GridLayout.lua
+
+* Fix border selection widget
+------------------------------------------------------------------------
+r1398 | StingerSoft | 2010-11-16 10:43:54 +0000 (Tue, 16 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/Locales/GridLocale-ruRU.lua
+
+ruRU update
+------------------------------------------------------------------------
+r1397 | Sayclub | 2010-11-16 04:01:20 +0000 (Tue, 16 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/Locales/GridLocale-koKR.lua
+
+fixed typo in koKR localization
+------------------------------------------------------------------------
+r1396 | Sayclub | 2010-11-16 03:57:05 +0000 (Tue, 16 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/Locales/GridLocale-koKR.lua
+
+koKR update
+------------------------------------------------------------------------
+r1395 | kunda | 2010-11-16 00:54:41 +0000 (Tue, 16 Nov 2010) | 5 lines
+Changed paths:
+   M /trunk/GridLDB.lua
+   M /trunk/GridLayout.lua
+   M /trunk/Locales/GridLocale-deDE.lua
+   M /trunk/Locales/GridLocale-esES.lua
+   M /trunk/Locales/GridLocale-esMX.lua
+   M /trunk/Locales/GridLocale-frFR.lua
+   M /trunk/Locales/GridLocale-koKR.lua
+   M /trunk/Locales/GridLocale-ruRU.lua
+   M /trunk/Locales/GridLocale-zhCN.lua
+   M /trunk/Locales/GridLocale-zhTW.lua
+
+- GridLayout.lua: fixed one locale string
+- GridLDB.lua: minimap text width set to 'double' to avoid abbreviation
+- removed unused strings from all locales
+- added missing strings to all locales
+- deDE update
+------------------------------------------------------------------------
+r1394 | greltok | 2010-11-11 05:16:18 +0000 (Thu, 11 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/GridStatusAuras.lua
+
+Ticket 438 - Only scan for player buffs if the unit is visible.
+------------------------------------------------------------------------
+r1393 | Phanx | 2010-11-08 13:02:31 +0000 (Mon, 08 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/GridStatus.lua
+   M /trunk/GridStatusAuras.lua
+   M /trunk/README.txt
+
+* Minor tweak for status options
+------------------------------------------------------------------------
+r1392 | Phanx | 2010-11-05 15:54:29 +0000 (Fri, 05 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/GridCore.lua
+   M /trunk/GridFrame.lua
+   M /trunk/GridLayout.lua
+   M /trunk/GridRange.lua
+   M /trunk/GridRoster.lua
+   M /trunk/GridStatus.lua
+   M /trunk/GridStatusAggro.lua
+   M /trunk/GridStatusAuras.lua
+   M /trunk/GridStatusHeals.lua
+   M /trunk/GridStatusHealth.lua
+   M /trunk/GridStatusMana.lua
+   M /trunk/GridStatusName.lua
+   M /trunk/GridStatusRange.lua
+   M /trunk/GridStatusReadyCheck.lua
+   M /trunk/GridStatusTarget.lua
+   M /trunk/GridStatusVehicle.lua
+   M /trunk/GridStatusVoiceComm.lua
+
+* Improved module API. Documentation to follow on project page. No plugin changes are required.
+* Improved options frame layout.
+------------------------------------------------------------------------
+r1391 | Phanx | 2010-11-03 05:05:15 +0000 (Wed, 03 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/.docmeta
+   M /trunk/GridCore.lua
+   D /trunk/README.markdown
+   A /trunk/README.txt
+
+- Register modules in OnEnable to make sure third-party plugins get added to the debug menu
+------------------------------------------------------------------------
+r1390 | Phanx | 2010-10-30 20:17:03 +0000 (Sat, 30 Oct 2010) | 2 lines
+Changed paths:
+   A /trunk/.docmeta
+   M /trunk/Grid.toc
+   A /trunk/README.markdown
+
+* Add README and .docmeta for auto-updating description page
+* TOC tweak
+------------------------------------------------------------------------

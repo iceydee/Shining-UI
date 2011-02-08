@@ -1,0 +1,8 @@
+## Interface: 30300
+## Author: Safturento
+## Version: 1.0
+## Title: |cff97b4ffsaft|rExperienceBar
+## Notes: Minimalist experience & reputation bar
+
+saftExperienceBar.lua
+

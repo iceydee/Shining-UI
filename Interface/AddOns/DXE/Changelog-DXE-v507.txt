@@ -1,0 +1,14 @@
+tag v507
+61811acc8a7acf9dc75503256bac99157ab36fcc
+Shefki <shefki@shefki.org>
+2010-10-19 22:18:37 -0700
+
+Tagging as v507
+
+
+--------------------
+
+Shefki:
+	- Bump version to 507.
+kollektiv:
+	- Ticket #171 - Move scheduling after argument assignments because zero length timers are called immediately

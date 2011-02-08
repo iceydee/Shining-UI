@@ -1,0 +1,15 @@
+tag 4.0-1
+8cb2e25fd92ec2ac521657f8fd3a64e077e672d1
+root <root@db06.curselive.local>
+2010-12-07 21:46:44 +0000
+
+Tagging as 4.0-1
+
+
+--------------------
+
+Tom Wieland:
+	- bump for 4.0
+	- add a readme file
+	- corrected misspellings, converted from tabs to spaces and fixed for 4.0.1
+	- update the toc

@@ -1,0 +1,20 @@
+Shefki:
+	- Fix a very rare error in the Eclipse module.
+	Apparently GetEclipseDirection() can return nil in very rare situations.
+	- Fix right click menu never working on group frames created in combat.
+	Note: Due to an API limitation the right click menu won't start working
+	until you leave combat.  This is due to the lack of RegisterForClicks.
+	I've asked for it to be added and hopefully it'll make it into 4.1
+	- Fix problems with pet group frames created in combat showing owner not pet.
+	I forgot to set the attribute that I used in the restricted environment
+	to set the unitsuffix on the frames when they're created.
+	- Ticket #888, Taint problem with group frames created in combat.
+	- Forgot to add localizations to Debug.lua
+	- Ticket #891: ShortRace support for Goblin and Worgen races.
+	- Fix showing the player's pets experience bar when on a vehicle that is not the same level as the player.
+	- Ticket #876: Out of Phase indicator icon.
+	Note: This may not work perfectly, due to a Blizzard bug.  If the phase
+	transitions happens while you are too far away from the group member
+	then no event will fire to update the change.
+	- Disable group config modes for 4.0.3a as well for now.
+	- Ticket #878, Fix a typo in the code.
